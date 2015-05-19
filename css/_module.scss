@@ -1,6 +1,5 @@
 /* Module.scss */
 
-
 header[role="banner"] {
     //background: url('../img/home-banner-bw.jpg') left center no-repeat;
     background-color: aqua;
@@ -41,7 +40,15 @@ header nav {
     height: 100px;
 }
 
-.main-about-text {
+.section-col-8 {
+    float: left;
+}
+
+.section-col-4 {
+    float: right;
+}
+
+.main-album-text {
     column-count: 2;
     column-gap: 20px;
 }
@@ -73,8 +80,17 @@ header nav {
     }
 }
 
+.main-row {
+    max-width: 1140px;
+    width: 100%;
+}
+
 .conentinfo {
     background-color: #2b2b2b;
     color: #fff;
     
+}
+
+main img {
+    padding: 20px 0px 20px 0px;
 }
